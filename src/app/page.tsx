@@ -11,7 +11,7 @@ import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import { Sparkles, Home, Shield, Award, Star, Mail, TrendingUp, DollarSign, Users } from "lucide-react";
+import { Sparkles, Home, Shield, Award, Star, Mail, Users } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -58,8 +58,6 @@ export default function LandingPage() {
             { imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=1", imageAlt: "Dubai skyline at night" }
           ]}
           mediaAnimation="slide-up"
-          rating={5}
-          ratingText="4.9/5 Average Rating"
         />
       </div>
 
