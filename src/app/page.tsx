@@ -79,7 +79,7 @@ export default function LandingPage() {
           gridVariant="uniform-all-items-equal"
           carouselMode="buttons"
           buttons={[
-            { text: "See all designs", href: "#" }
+            { text: "View Our Full Portfolio", href: "#" }
           ]}
           products={[
             {
