@@ -7,11 +7,10 @@ import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import TeamCardOne from '@/components/sections/team/TeamCardOne';
-import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
-import { Sparkles, Home, Shield, Award, Star, Mail, TrendingUp, DollarSign, Users } from "lucide-react";
+import { Sparkles, Home, Shield, Star, Mail } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -192,6 +191,7 @@ export default function LandingPage() {
             { title: "Services", items: [{ label: "Bespoke Sourcing", href: "#services" }] }
           ]}
           bottomLeftText="© 2025 Elite Interiors. All rights reserved."
+          bottomRightText="Designed by Elite Interiors"
         />
       </div>
     </ThemeProvider>
