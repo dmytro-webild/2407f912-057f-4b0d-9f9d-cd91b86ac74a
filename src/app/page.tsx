@@ -45,7 +45,7 @@ export default function LandingPage() {
       <div id="hero" data-section="hero">
         <HeroBillboardGallery
           title="Discover Luxury Living in Dubai"
-          description="Exclusive properties curated for discerning buyers. Experience the pinnacle of sophistication with our award-winning real estate portfolio."
+          description="High-yield investment opportunities and world-class residences. Experience the pinnacle of sophistication with our award-winning real estate portfolio."
           background={{ variant: "gradient-bars" }}
           tag="Premium Collections"
           tagIcon={Sparkles}
