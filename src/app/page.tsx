@@ -49,7 +49,7 @@ export default function LandingPage() {
           tag="Boutique Agency"
           tagIcon={Sparkles}
           buttons={[
-            { text: "Explore Designs", href: "properties" },
+            { text: "View Our Designs", href: "properties" },
             { text: "Get Your Personalized Property Guide", href: "contact" }
           ]}
           mediaItems={[
