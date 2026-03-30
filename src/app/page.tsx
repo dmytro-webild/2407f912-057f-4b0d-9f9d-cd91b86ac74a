@@ -37,7 +37,7 @@ export default function LandingPage() {
             { name: "Testimonials", id: "testimonials" },
             { name: "Contact", id: "contact" }
           ]}
-          button={{ text: "Get Your Personalized Property Guide", href: "contact" }}
+          button={{ text: "Get My Property Guide", href: "contact" }}
         />
       </div>
 
@@ -50,7 +50,7 @@ export default function LandingPage() {
           tagIcon={Sparkles}
           buttons={[
             { text: "View Our Designs", href: "properties" },
-            { text: "Get Your Personalized Property Guide", href: "contact" }
+            { text: "Get My Property Guide", href: "contact" }
           ]}
           mediaItems={[
             {
@@ -179,7 +179,7 @@ export default function LandingPage() {
           background={{ variant: "sparkles-gradient" }}
           useInvertedBackground={false}
           buttons={[
-            { text: "Get Your Personalized Property Guide", href: "#" }
+            { text: "Get My Property Guide", href: "#" }
           ]}
         />
       </div>
