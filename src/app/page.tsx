@@ -55,19 +55,19 @@ export default function LandingPage() {
           ]}
           mediaItems={[
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg",              imageAlt: "Luxury penthouse in Dubai Marina"
+              imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg?_wi=1",              imageAlt: "Luxury penthouse in Dubai Marina"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg",              imageAlt: "Dubai skyline at night"
+              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=1",              imageAlt: "Dubai skyline at night"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg",              imageAlt: "Modern luxury exterior design"
+              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=1",              imageAlt: "Modern luxury exterior design"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg",              imageAlt: "Contemporary luxury architecture"
+              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg?_wi=1",              imageAlt: "Contemporary luxury architecture"
             },
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg",              imageAlt: "Spacious modern interior with panoramic view"
+              imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg?_wi=2",              imageAlt: "Spacious modern interior with panoramic view"
             }
           ]}
           mediaAnimation="slide-up"
@@ -90,14 +90,14 @@ export default function LandingPage() {
           ]}
           products={[
             {
-              id: "1",              name: "Palm Jumeirah Villa",              price: "AED 12,500,000",              variant: "5 Bed Villa | Beachfront",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg",              imageAlt: "Luxury villa on Palm Jumeirah",              isFavorited: false,
+              id: "1",              name: "Palm Jumeirah Villa",              price: "AED 12,500,000",              variant: "5 Bed Villa | Beachfront",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=2",              imageAlt: "Luxury villa on Palm Jumeirah",              isFavorited: false,
               onProductClick: () => window.location.href = "/property/palm-jumeirah-villa"
             },
             {
-              id: "2",              name: "Downtown Dubai Penthouse",              price: "AED 8,750,000",              variant: "4 Bed Penthouse | City View",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg",              imageAlt: "Modern penthouse in Downtown Dubai",              isFavorited: false
+              id: "2",              name: "Downtown Dubai Penthouse",              price: "AED 8,750,000",              variant: "4 Bed Penthouse | City View",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=2",              imageAlt: "Modern penthouse in Downtown Dubai",              isFavorited: false
             },
             {
-              id: "3",              name: "Emirates Hills Townhouse",              price: "AED 6,200,000",              variant: "4 Bed Townhouse | Golf View",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg",              imageAlt: "Contemporary townhouse in Emirates Hills",              isFavorited: false
+              id: "3",              name: "Emirates Hills Townhouse",              price: "AED 6,200,000",              variant: "4 Bed Townhouse | Golf View",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg?_wi=2",              imageAlt: "Contemporary townhouse in Emirates Hills",              isFavorited: false
             }
           ]}
         />
@@ -108,7 +108,7 @@ export default function LandingPage() {
           title="Your Trusted Dubai Real Estate Partner"
           description="With over 15 years of excellence in Dubai's luxury real estate market, we have established ourselves as the premier boutique agency for discerning international clientele. Our expert team specializes in sourcing and curating the finest properties across Dubai's most exclusive communities. We combine market mastery with personalized service, ensuring every transaction is seamless and satisfying."
           tag="About Us"
-          imageSrc="https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg"
+          imageSrc="https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=3"
           imageAlt="Luxe Properties Dubai team"
           useInvertedBackground={false}
           buttons={[
@@ -130,22 +130,22 @@ export default function LandingPage() {
           carouselMode="buttons"
           features={[
             {
-              id: "01",              title: "Property Selection",              description: "Exclusive access to off-market and hand-selected luxury properties",              imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg",              imageAlt: "Property selection"
+              id: "01",              title: "Property Selection",              description: "Exclusive access to off-market and hand-selected luxury properties",              imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg?_wi=3",              imageAlt: "Property selection"
             },
             {
-              id: "02",              title: "Investment Advisory",              description: "Expert insights into market trends and investment opportunities",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg",              imageAlt: "Investment advisory"
+              id: "02",              title: "Investment Advisory",              description: "Expert insights into market trends and investment opportunities",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=3",              imageAlt: "Investment advisory"
             },
             {
-              id: "03",              title: "Negotiation & Closing",              description: "Strategic negotiation and seamless transaction management",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg",              imageAlt: "Negotiation and closing"
+              id: "03",              title: "Negotiation & Closing",              description: "Strategic negotiation and seamless transaction management",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=4",              imageAlt: "Negotiation and closing"
             },
             {
-              id: "04",              title: "Legal Compliance",              description: "Full support with documentation, permits, and regulatory compliance",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg",              imageAlt: "Legal compliance"
+              id: "04",              title: "Legal Compliance",              description: "Full support with documentation, permits, and regulatory compliance",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg?_wi=3",              imageAlt: "Legal compliance"
             },
             {
-              id: "05",              title: "Property Management",              description: "Professional management services for rental income optimization",              imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg",              imageAlt: "Property management"
+              id: "05",              title: "Property Management",              description: "Professional management services for rental income optimization",              imageSrc: "https://img.b2bpic.net/free-photo/modern-spacious-room-with-large-panoramic-window_7502-7289.jpg?_wi=4",              imageAlt: "Property management"
             },
             {
-              id: "06",              title: "Concierge Services",              description: "White-glove concierge support for renovations and lifestyle services",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg",              imageAlt: "Concierge services"
+              id: "06",              title: "Concierge Services",              description: "White-glove concierge support for renovations and lifestyle services",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=4",              imageAlt: "Concierge services"
             }
           ]}
         />
@@ -214,22 +214,22 @@ export default function LandingPage() {
           useInvertedBackground={false}
           testimonials={[
             {
-              id: "1",              name: "Ahmed Al Mansouri, Real Estate Investor",              date: "Date: September 2024",              title: "Exceptional Service & Market Expertise",              quote: "The team at Luxe Properties demonstrated outstanding knowledge of the Dubai market. Their negotiation skills saved me significant time and money. I would not hesitate to recommend them for any luxury property transaction.",              tag: "Premium Portfolio",              avatarSrc: "https://img.b2bpic.net/free-photo/business-people-using-digital-tablet-airport_107420-95868.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg"
+              id: "1",              name: "Ahmed Al Mansouri, Real Estate Investor",              date: "Date: September 2024",              title: "Exceptional Service & Market Expertise",              quote: "The team at Luxe Properties demonstrated outstanding knowledge of the Dubai market. Their negotiation skills saved me significant time and money. I would not hesitate to recommend them for any luxury property transaction.",              tag: "Premium Portfolio",              avatarSrc: "https://img.b2bpic.net/free-photo/business-people-using-digital-tablet-airport_107420-95868.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=5"
             },
             {
-              id: "2",              name: "Sarah Johnson, CEO - Tech Corp",              date: "Date: August 2024",              title: "A Smooth & Sophisticated Experience",              quote: "Finding a penthouse that matched my exacting standards seemed impossible, yet within weeks, the team presented three exceptional options. Their professionalism and attention to detail were impeccable throughout.",              tag: "Penthouse Collection",              avatarSrc: "https://img.b2bpic.net/free-photo/attractive-satisfied-young-female-entrepreneur-standing-proud-smiling-with-crossed-hands-confident_197531-23012.jpg?id=13871705",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg"
+              id: "2",              name: "Sarah Johnson, CEO - Tech Corp",              date: "Date: August 2024",              title: "A Smooth & Sophisticated Experience",              quote: "Finding a penthouse that matched my exacting standards seemed impossible, yet within weeks, the team presented three exceptional options. Their professionalism and attention to detail were impeccable throughout.",              tag: "Penthouse Collection",              avatarSrc: "https://img.b2bpic.net/free-photo/attractive-satisfied-young-female-entrepreneur-standing-proud-smiling-with-crossed-hands-confident_197531-23012.jpg?id=13871705",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=5"
             },
             {
-              id: "3",              name: "Michael Chen, International Investor",              date: "Date: July 2024",              title: "Trusted Partner for International Clients",              quote: "As a foreign investor, I appreciated the comprehensive legal and financial guidance. The team navigated complex regulations effortlessly, allowing me to invest with complete confidence.",              tag: "Investment Advisory",              avatarSrc: "https://img.b2bpic.net/free-photo/young-businessman-with-clipboard_1098-602.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg"
+              id: "3",              name: "Michael Chen, International Investor",              date: "Date: July 2024",              title: "Trusted Partner for International Clients",              quote: "As a foreign investor, I appreciated the comprehensive legal and financial guidance. The team navigated complex regulations effortlessly, allowing me to invest with complete confidence.",              tag: "Investment Advisory",              avatarSrc: "https://img.b2bpic.net/free-photo/young-businessman-with-clipboard_1098-602.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg?_wi=4"
             },
             {
-              id: "4",              name: "Fatima Al-Serkal, Luxury Lifestyle",              date: "Date: June 2024",              title: "Impeccable Taste & Attention to Detail",              quote: "Beyond finding properties, they understand lifestyle. The concierge services and interior design recommendations have transformed my new home into a personal sanctuary.",              tag: "Concierge Services",              avatarSrc: "https://img.b2bpic.net/free-photo/executive-paying-attention-his-partner_1098-4058.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg"
+              id: "4",              name: "Fatima Al-Serkal, Luxury Lifestyle",              date: "Date: June 2024",              title: "Impeccable Taste & Attention to Detail",              quote: "Beyond finding properties, they understand lifestyle. The concierge services and interior design recommendations have transformed my new home into a personal sanctuary.",              tag: "Concierge Services",              avatarSrc: "https://img.b2bpic.net/free-photo/executive-paying-attention-his-partner_1098-4058.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/shanghai-night-china_1127-3170.jpg?_wi=6"
             },
             {
-              id: "5",              name: "David Martinez, Corporate Executive",              date: "Date: May 2024",              title: "Seamless Relocation Experience",              quote: "Moving to Dubai for business, I needed a quick turnaround. Their efficient process and white-glove service made the transition seamless and stress-free.",              tag: "Corporate Solutions",              avatarSrc: "https://img.b2bpic.net/free-photo/smiling-team-leader-looking-camera-group-corporate-meeting_1163-3920.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg"
+              id: "5",              name: "David Martinez, Corporate Executive",              date: "Date: May 2024",              title: "Seamless Relocation Experience",              quote: "Moving to Dubai for business, I needed a quick turnaround. Their efficient process and white-glove service made the transition seamless and stress-free.",              tag: "Corporate Solutions",              avatarSrc: "https://img.b2bpic.net/free-photo/smiling-team-leader-looking-camera-group-corporate-meeting_1163-3920.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920926.jpg?_wi=6"
             },
             {
-              id: "6",              name: "James Richardson, Family Relocation",              date: "Date: April 2024",              title: "Perfect Home for Family Living",              quote: "They truly understood what our family needed. The search process was collaborative and transparent, resulting in finding our perfect family home in Emirates Hills.",              tag: "Family Properties",              avatarSrc: "https://img.b2bpic.net/free-photo/cheerful-businessman-eyeglasses-office_1262-3710.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg"
+              id: "6",              name: "James Richardson, Family Relocation",              date: "Date: April 2024",              title: "Perfect Home for Family Living",              quote: "They truly understood what our family needed. The search process was collaborative and transparent, resulting in finding our perfect family home in Emirates Hills.",              tag: "Family Properties",              avatarSrc: "https://img.b2bpic.net/free-photo/cheerful-businessman-eyeglasses-office_1262-3710.jpg",              imageSrc: "https://img.b2bpic.net/free-photo/luxury-architecture-exterior-design_23-2151920931.jpg?_wi=5"
             }
           ]}
         />
